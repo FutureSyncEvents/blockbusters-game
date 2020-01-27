@@ -60,20 +60,20 @@ h1 {
 }
 
 .all {
-  margin-top: 50px;
   border-style: solid;
   border-color: lightgrey;
-  padding: 10px 30px 60px 5px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  padding: 5px 5px 162px 5px;
+  width: 733px;
+  margin:auto;
 }
 
 #question {
-  position: absolute;
-  float: bottom;
-  padding-top: 550px;
+  padding: 5px;
   margin: auto;
+  margin-top: 5px;
+  width: 733px;
+  height: 100px;
+  text-align: center;
+  border-style: solid;
+  border-color: lightgrey;
 }
