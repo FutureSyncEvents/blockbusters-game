@@ -25,14 +25,18 @@ var questions = {
   '88': 'Question for letter X',
   '89': 'Question for letter Y',
   '90': 'Question for letter Z',
-}
+};
 
+// update by key press
 document.addEventListener("keydown", event => {
-
   var keypress = event.keyCode
-
   if (event.isComposing || event.keyCode >= 65 && event.keyCode <= 90) {
     document.getElementById('question').innerHTML = questions[keypress];
   }
+});
 
+// update by click
+document.addEventListener("click", event => {
+  var clickpress = event.target.text.charCodeAt(0)
+  document.getElementById('question').innerHTML = questions[clickpress];
 });

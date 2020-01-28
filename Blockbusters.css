@@ -85,18 +85,19 @@ img {
   border-left: 30px solid #8bc7df;
 }
 
-.hexagon-link, .hexagon-link1 {
+.hexagon-link {
   text-decoration: none;
   color: #0e0e0e;
   font-weight: bold;
-  /* font-family: 'Century Gothic Regular'; */
-  font-family: century-gothic, sans-serif;
+  font-family: sans-serif;
 }
 
-.hexagon-link1 {
+h1 {
+  color: #0e0e0e;
   display: block;
-  font-weight: normal;
-  font-size: 12px;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: sans-serif;
 }
 
 .all {
@@ -108,14 +109,14 @@ img {
 }
 
 #question {
+  /* border: solid 0.1px; */
+  /* border-color: white; */
   padding: 5px;
   margin: auto;
   margin-top: 20px;
   width: 748px;
   min-height: 50px;
   text-align: center;
-  font-size: 25px;
-  /* border: solid 0.1px; */
-  /* border-color: white; */
+  font-size: 30px;
   color: #8bc7df;
 }
