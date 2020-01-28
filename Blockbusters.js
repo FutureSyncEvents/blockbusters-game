@@ -1,9 +1,38 @@
+var questions = {
+  '65': 'Question for letter A',
+  '66': 'Question for letter B',
+  '67': 'Question for letter C',
+  '68': 'Question for letter D',
+  '69': 'Question for letter E',
+  '70': 'Question for letter F',
+  '71': 'Question for letter G',
+  '72': 'Question for letter H',
+  '73': 'Question for letter I',
+  '74': 'Question for letter J',
+  '75': 'Question for letter K',
+  '76': 'Question for letter L',
+  '77': 'Question for letter M',
+  '78': 'Question for letter N',
+  '79': 'Question for letter O',
+  '80': 'Question for letter P',
+  '81': 'Question for letter Q',
+  '82': 'Question for letter R',
+  '83': 'Question for letter S',
+  '84': 'Question for letter T',
+  '85': 'Question for letter U',
+  '86': 'Question for letter V',
+  '87': 'Question for letter W',
+  '88': 'Question for letter X',
+  '89': 'Question for letter Y',
+  '90': 'Question for letter Z',
+}
+
 document.addEventListener("keydown", event => {
-  if (event.isComposing || event.keyCode === 65) { // A Key
-    // do something
-    // alert('The A key has been pressed'); // Just for testing
-    // Insert question
-    document.getElementById('question').innerHTML = 'Question for letter A';
+
+  var keypress = event.keyCode
+
+  if (event.isComposing || event.keyCode >= 65 && event.keyCode <= 90) {
+    document.getElementById('question').innerHTML = questions[keypress];
   }
 
 });

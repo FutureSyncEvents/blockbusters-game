@@ -1,13 +1,14 @@
 body {
-  width: 60%;
-  font-family: 'times new roman';
+  width: 50%;
   margin: auto;
-  background-image: linear-gradient(lightgreen);
+  background-color: #0e0e0e;
 }
 
-h1 {
-  color: purple;
-  text-align: center;
+img {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .hexagon {
@@ -18,7 +19,7 @@ h1 {
 
 .hexagon-left {
   float: left;
-  border-right: 32px solid #6C6;
+  border-right: 30px solid #ff049c;
   border-top: 52px solid transparent;
   border-bottom: 52px solid transparent;
 }
@@ -27,8 +28,7 @@ h1 {
   float: left;
   width: 65px;
   height: 104px;
-  background-color: #6C6;
-
+  background-color: #ff049c;
   font-size: 50px;
   text-align: center;
   line-height: 100px;
@@ -36,7 +36,7 @@ h1 {
 
 .hexagon-right {
   float: left;
-  border-left: 30px solid #6C6;
+  border-left: 30px solid #ff049c;
   border-top: 52px solid transparent;
   border-bottom: 52px solid transparent;
 }
@@ -49,31 +49,73 @@ h1 {
   margin-top: 53px;
 }
 
+.h-l-purple {
+  border-right: 30px solid #e021e2;
+}
+
+.h-m-purple {
+  background-color: #e021e2;
+}
+
+.h-r-purple {
+  border-left: 30px solid #e021e2;
+}
+
+.h-l-pink {
+  border-right: 30px solid #ff049c;
+}
+
+.h-m-pink {
+  background-color: #ff049c;
+}
+
+.h-r-pink {
+  border-left: 30px solid #ff049c;
+}
+
+.h-l-blue {
+  border-right: 30px solid #8bc7df;
+}
+
+.h-m-blue {
+  background-color: #8bc7df;
+}
+
+.h-r-blue {
+  border-left: 30px solid #8bc7df;
+}
+
 .hexagon-link, .hexagon-link1 {
   text-decoration: none;
-  color: purple;
+  color: #0e0e0e;
   font-weight: bold;
+  /* font-family: 'Century Gothic Regular'; */
+  font-family: century-gothic, sans-serif;
 }
 
 .hexagon-link1 {
-  font-size: 10px;
+  display: block;
+  font-weight: normal;
+  font-size: 12px;
 }
 
 .all {
-  border-style: solid;
-  border-color: lightgrey;
+  /* border: solid 0.1px; */
+  /* border-color: white; */
   padding: 5px 5px 162px 5px;
-  width: 733px;
+  width: 748px;
   margin:auto;
 }
 
 #question {
   padding: 5px;
   margin: auto;
-  margin-top: 5px;
-  width: 733px;
-  height: 100px;
+  margin-top: 20px;
+  width: 748px;
+  min-height: 50px;
   text-align: center;
-  border-style: solid;
-  border-color: lightgrey;
+  font-size: 25px;
+  /* border: solid 0.1px; */
+  /* border-color: white; */
+  color: #8bc7df;
 }
